@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+a { 
+    text-decoration: none;
+}
+
+body{
+    
+    background-image: url(../images/assigments\ background.jpg);
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+}
+
+.nav-block{
+    border: 0px solid;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.logo{
+    padding-top: 5px;
+    background-color: transparent;
+    width: 10%;
+    margin-right: 15%;
+}
+.nav-links {
+   display: flex;
+    justify-content: space-around;
+    width:60%;
+    
+}
+
+.nav-links li{
+
+    list-style: none;
+}
+
+.nav-links a{
+    color: mint;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 0, 50px;
+    font-size: 28px;
+}
+
+.listheaders{
+    background-color:rgba(0, 0, 0, 0.75); ;
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: rgb(83, 155, 119);
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top:8vh;
+    letter-spacing: 3px;
+}
+
+.listcontainer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 55px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.listcontainer ul{
+    background-color:transparent;
+    margin-left: 2vh;
+    margin-right: 0;
+}
+.listcontainer li{ 
+    list-style: none;
+    background-color: transparent;
+    font-size: 55px;
+    font-style: bold;
+    color:rgb(158, 42, 42);
+    letter-spacing: 2px;
+
+
+}
